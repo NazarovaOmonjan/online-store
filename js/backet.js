@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 let basket_json = {
     1: {
         'img': '../media/chocolate/01.png',
@@ -64,22 +58,3 @@ for (let i = 1; i <= 5; i++) {
 }
 
 
-// for (let i = 1; i <= 24; i++) {
-//     let div = document.createElement('div');
-//     div.classList.add('product-item');
-
-//     div.innerHTML = `
-//         <img src="${chocolate_json[i]['img']}" alt="" class="product-img">
-//         <div class="product-data">
-//             <p class="product-name">${chocolate_json[i]['name']}</p>
-//             <p class="product-price">$${chocolate_json[i]['price']}</p>
-//             <div class="product-control">
-//                 <button class="minus">-</button>
-//                 <input type="text" class="count" value="0">
-//                 <button class="plus">+</button>
-//             </div>
-//         </div>
-//     `;
-
-//     product.appendChild(div);
-// }
