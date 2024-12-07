@@ -1,5 +1,5 @@
 
-.backet-container{
+ .backet-container{
     width: 80%;
     border-radius: 10px;
     padding-top: 10px;
@@ -43,6 +43,30 @@
     padding: 8px;
     border-radius: 5px;
     color: white;
+
+}
+ 
+.backet-button {
+
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+}
+.backet-button button:first-child {
+    width: 100px;
+    height: 30px;
+    border: none;
     background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.backet-button button:nth-child(2) {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(82, 64, 185);
+    color: white;
+    border-radius: 5px;
 }
 
+ 
